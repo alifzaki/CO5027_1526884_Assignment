@@ -11,7 +11,7 @@
 	<a href="Home.html"><img src="picture/sketch.jpg" alt="image" width="400" height="200"/></a> 
 	<a href="Home.html"><img src="picture/paint.jpg" alt="image" width="400" height="200"/></a>
 	<a href="Home.html"><img src="picture/crayon.jpg" alt="image" width="400" height="200"/></a>
-	<a href="Home.html"><img src="picture/waterpaint.jpg" alt="image" width="400" height="200"/></a> 
+	<a href="Home.html"><img src="picture/waterpaint.jpg" alt="image" width="400" height="200"/></a>  
 	</tr>
 		</td>
 
