@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ARTKUTU.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>ARTKUTU</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+    <div class= "container"><img src="picture/ARTKUTU.jpg" alt="picture/ARTKUTU.jpg" style="width:170px;height:130px"></div>
+<body>
+    <nav>
+			<div class="cities1" role="menu"> 
+			<a href="Home.aspx">HOME</a> 
+			<a href="Product.aspx">PRODUCT</a>
+			<a href="About.aspx"> ABOUT US </a>
+			<a href="Contact.aspx"> CONTACT US </a>
+			<a href="Login.aspx"> LOGIN </a>
+			</div>
+			
+			
+	</nav>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+       
+    </div>
+    </form>
+     <div>
+<footer>
+<p> copyright 1526884 | Mohd Alif Nasrulhisyam </p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,545 @@
+﻿
+body {
+			background: url(../picture/background.jpg) no-repeat center center fixed;
+			background-size: cover;
+			padding: 0px;
+            text-align: center;
+}
+		
+table, td, th {
+				
+				text-align: center;
+				width: 1100px;
+				height: 100px;
+				
+				
+			}
+a {
+				margin: 10px 50px 10px 50px;
+				color: white;
+				font-size: 20px;
+				text-decoration: none;
+			}
+a:hover {
+				color: Darkgrey;
+				text-decoration: underline;
+			}
+div.cities1 {
+				text-align: center;
+				background-color: Black;
+				color: white;
+				margin: 20px 0 20px 0;
+				padding: 20px;
+				width: 100%;
+				
+				}
+div.cities2 {
+	text-align: center;
+	color: black;
+	background-color: white;
+	
+}
+h1   {
+	color: black;
+	text-align: center;
+}
+p    {
+	color: white;
+	}
+p 		{ font-size: 12pt; line-height:12pt;}
+		p:first-letter { font-size: 200%; }
+		
+div.container {
+	text-align:center;
+}
+div.container1 {
+	text-align:center;
+}
+
+	.background-wrap {
+	position:fixed;
+	z-index: -1000;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	top:0;
+	left:0;
+	}
+		
+	#video-bg-elem {
+		position:absolute;
+		top: 0;
+		left: 0;
+		min-height: 100%;
+		min-width: 100%;
+	}
+	.content {
+		position: absolute;
+		width:100%;
+		min-height:100%;
+		z-index: 1000;
+	}
+	.content h1 {
+		text-align: center;
+		font-size: 65px;
+		text-transform: uppercase;
+		font-weight: 300;
+		color: black;
+		padding-top: 15%;
+		margin-bottom: 10px;
+	}
+	.content p {
+		text-align: center;
+		font-size: 20px;
+		letter-spacing: 3px;
+		color: #aaa;
+	}
+	
+		span { 
+		text-transform:uppercase; 
+		}
+.banner {
+	position: fixed;
+	background-color: transparent;
+	height: 500px;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+	
+	/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 40%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Column {
+
+	display: block;
+	margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.video1  {
+	padding: 50px;
+	margin: 450px;
+	clear: both;
+
+}
+figcaption {
+	text-align:left;
+	color:white;
+	margin-top: 0.5em;
+	line-height: 1em;
+	
+}
+
+div.footer {
+	float: right;
+	background-color: transparent;
+	height: 65px;
+	width: auto;
+	padding: 0px;
+}
+
+.parallax {
+
+    background-image: url("pics/db8.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.font {
+	
+	 border: 1px solid black;
+	text-align: center;
+	font-family: French Script MT;
+	font-size: 74%;
+	 margin: 5px;
+    padding: 8px;
+}
+p1 {
+	font-size: 300%;
+	font-family: French Script MT;
+	color: white;
+}
+	
+	div.container2 {
+					
+					width: auto;
+					height: auto;	
+	}
+	div.container2 table {
+					background-color: black;
+					width: 85%;
+					margin: auto;
+					opacity: 0.9;
+					border: 1px solid white;
+					border-collapse: collapse;
+					text-align: center;
+	}
+	div.container2 th {
+					color: white;
+					padding: 10px;
+					border: 1px solid white;
+	}
+	div.container2 td {
+					color: white;
+					padding: 10px;
+					text-align: justify;
+					border: 1px solid white;
+	}
+
+	div.container3 {
+					
+					height: auto;	
+					width: auto;
+				
+	}
+	div.container3 table{
+					background-color: black;
+					opacity: 0.9;
+					width: 85%;
+					margin: auto;
+						
+					
+	}				
+	div.container3 th {
+					color: white;
+					padding: 50px;
+					
+	}
+	div.container3 td {
+					color: white;
+					padding: 10px;
+					text-align: justify;
+					
+	}
+	
+	label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+/* Centre the page */
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:439px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	height:213px;
+	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+input, textarea {
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    background:url(images/submit.jpg);
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+	
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 5px 0 0px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0; 
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}	
+
+footer{
+		text-align: center;
+		background: black;
+}
+center{
+    position: center
+}
+
