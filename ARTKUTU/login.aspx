@@ -1,27 +1,31 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="ARTKUTU.login" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="ARTKUTU.login"  %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <form class="modal-content animate" action="/action_page.php">
-    <div class="imgcontainer">
-      <img src="picture/ARTKUTU.jpg" alt="Avatar" class="avatar">
-    </div>
-
-    <div class="container">
-      <label><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <button type="submit">Login</button>
-      <input type="checkbox" checked="checked"> Remember me
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
+   
+    <h1>LOG IN</h1>
+      <div class="box2">
+    <table>
+              <tr>
+      <td>Username</td>
+        <td>
+                  <asp:textbox ID="TxtUsername" runat="server"></asp:textbox>
+        </td>
+              </tr>
+  <tr>
+     <td>Password</td>
+      <td>
+        <asp:textbox ID="TxtPassword" runat="server"></asp:textbox>
+      </td>
+  <tr>
+       <td colspan="2">
+        <asp:button runat="server" text="Login" OnClick="Unnamed1_Click" /></td>
+  </tr>
+  </tr>
+         <asp:literal ID="litLoginError" runat="server"></asp:literal>
+  
+    </table>
+      </div>
+    
+    
 </asp:Content>

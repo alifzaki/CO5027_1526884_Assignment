@@ -2,12 +2,20 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container1">
+
+<h1>Paint</h1>
+
+   <div class="container1">
 			<table>
-	<th colspan="2"> Canson® XL® Watercolor Pad</th>
+	<th colspan="2"> Daler-Rowney Aquafine Watercolors </th>
 				
 	<tr>
-					<td> <img src="picture/waterpaint.jpg" alt="image" width="500" height="200"> </td>
-					<td> Finest selected Kolinsky sable for watercolour painting. Diana is the brand that represents the very best in sable brushes. Sable is essential to achieve high standards in watercolour or gouache. For colour-holding capacity and spring there is no better natural hair or man-made fibre. </td>
-				</tr>
+					<td> <img src="picture/Aquafine-colours-8ml.jpg" alt="image" width="500" height="200"> </td>
+					<td> These quality watercolors are a great value. Aquafine is Daler-Rowney's newest watercolor. It provides great quality for a price and watercolorist can appreciate. </td>
+	</tr>
+            </table>
+    </div>
+
+      
+			
 </asp:Content>
