@@ -8,7 +8,8 @@
     <div class="container1">
 			<table>
             <tr>
-	<th colspan="2"> DIANA SERIES ROUND BRUSH</th>
+	<th colspan="2"> DIANA SERIES ROUND BRUSH  </th> 
+                   
 			</tr>
 	<tr>
 					<td> <img src="picture/diana.jpg" alt="image" width="500" height="200"> </td>
@@ -16,7 +17,8 @@
 	</tr>
 				
 	<tr>
-	<th colspan="2">BOB ROSS WILDLIFE BRUSH</th>
+	<th colspan="2">BOB ROSS WILDLIFE BRUSH || $7.50</th>
+                     
     </tr>
 	<tr>
 					<td> <img src="picture/BobRoss.jpg" alt="image" width="500" height="200"> </td>
@@ -24,7 +26,8 @@
 	</tr>
 				
 				<tr>
-	<th colspan="2">PRO ARTE ACRYLIX ONE STROKE BRUSHES SERIES 204</th>
+	<th colspan="2">PRO ARTE ACRYLIX ONE STROKE BRUSHES SERIES 204 || $6.50</th>
+                     
 				</tr>
 	<tr>
 					<td> <img src="picture/Pro Arte Acrylix One Stroke Brushes Series 204.jpg" alt="image" width="500" height="200"> </td>

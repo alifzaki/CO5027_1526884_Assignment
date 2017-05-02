@@ -11,7 +11,7 @@ namespace ARTKUTU
 {
 
 
-    public partial class product
+    public partial class Home
     {
     }
 }

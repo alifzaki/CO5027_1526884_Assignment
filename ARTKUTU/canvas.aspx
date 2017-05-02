@@ -6,7 +6,8 @@
       <div class="container1">
 			<table>
                 <tr>
-    <th colspan="2"> WINSOR & NEWTON ARTISTS' CANVAS MULTIPACK </th>
+    <th colspan="2"> WINSOR & NEWTON ARTISTS' CANVAS MULTIPACK ||  $8.50 </th>
+                     
                 </tr>
 				<tr>
 					<td> <img src="picture/2000x2000.fit.Artists' Stretched Canvas Rang10841_800x800.jpg" alt="image" width="300" height="200"> </td>
@@ -14,7 +15,8 @@
 				</tr>
 
                 <tr>
-    <th colspan="2">BOB ROSS WILDLIFE BRUSH</th>
+    <th colspan="2">BOB ROSS WILDLIFE BRUSH ||  $8.50</th>
+                     <p>$8.50</p>
 				</tr>
 				<tr>
 					<td> <img src="picture/2000x2000.fit.094376956016-Stretched Canvas Deep Edge Range.jpg" alt="image" width="500" height="200"> </td>

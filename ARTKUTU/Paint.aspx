@@ -8,6 +8,7 @@
    <div class="container1">
 			<table>
 	<th colspan="2"> Daler-Rowney Aquafine Watercolors </th>
+                 <p>$10.50</p>
 				
 	<tr>
 					<td> <img src="picture/Aquafine-colours-8ml.jpg" alt="image" width="500" height="200"> </td>

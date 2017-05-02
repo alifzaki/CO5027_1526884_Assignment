@@ -2,16 +2,18 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="cities">
 		<h1>ART SPEAKS WHERE WORDS ARE UNABLE TO EXPLAIN</h1>
-		</div>
+    <table>
 	<tr>
 		<td>
-	<a href="Home.aspx"><img src="picture/sketch.jpg" alt="image" width="400" height="200"/></a> 
-	<a href="Home.aspx"><img src="picture/paint.jpg" alt="image" width="400" height="200"/></a>
-	<a href="Home.aspx"><img src="picture/crayon.jpg" alt="image" width="400" height="200"/></a>
-	<a href="Home.aspx"><img src="picture/waterpaint.jpg" alt="image" width="400" height="200"/></a>  
+	<a href="brush.aspx"><img src="picture/brushes.jpg" alt="image"  width="1200" height="300"/></a>
+	<a href="canvas.aspx"><img src="picture/canvas.jpg" alt="image" width="1200" height="300"/></a>
+	<a href="pastels.aspx"><img src="picture/pastels.jpg" alt="image" width="1200" height="300"/></a>
+	<a href="Paint.aspx"><img src="picture/paints.jpg" alt="image" width="1200" height="300"/></a>
+	<a href="papers.aspx"><img src="picture/papers.jpg" alt="image" width="1200" height="300"/></a>
+	<a href="Easel.aspx"><img src="picture/easels.jpg" alt="image" width="1200" height="300"/></a> 
 		</td>
     </tr>
+    </table>
 
 </asp:Content>

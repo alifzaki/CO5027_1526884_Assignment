@@ -145,7 +145,6 @@
     <Content Include="picture\map.JPG" />
     <Content Include="picture\winston.jpg" />
     <Content Include="Privatepage.aspx" />
-    <Content Include="product.aspx" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Register.aspx" />
     <Content Include="Scripts\jquery-3.1.1.js" />
@@ -287,13 +286,6 @@
     </Compile>
     <Compile Include="Privatepage.aspx.designer.cs">
       <DependentUpon>Privatepage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="product.aspx.cs">
-      <DependentUpon>product.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="product.aspx.designer.cs">
-      <DependentUpon>product.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">

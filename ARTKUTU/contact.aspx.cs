@@ -42,5 +42,10 @@ namespace ARTKUTU
                 LitMessage.Text = "<p> Send failed: " + exp.Message + ":" + exp.InnerException + "</p>";
             }
         }
+
+        protected void Txtemail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
