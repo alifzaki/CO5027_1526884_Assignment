@@ -27,9 +27,9 @@ namespace ARTKUTU
             smtpClient.Credentials = credentials;
 
             MailMessage msg = new MailMessage("artkutu23@gmail.com", "artkutu23@gmail.com");
-            msg.Subject = "Name: " + Txtname.Text + "Email:" + Txtemail + "Subject:" + Txtsubject.Text;
+            msg.Subject = "Name: " + Txtname.Text + "Subject: " + Txtsubject.Text + "Email:" + Txtemail.Text;
             msg.Body = Txtmessage.Text;
-          
+            
 
             try
             {
