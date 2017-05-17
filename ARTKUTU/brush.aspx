@@ -8,7 +8,7 @@
     <div class="container1">
 			<table>
             <tr>
-	<th colspan="2"> DIANA SERIES ROUND BRUSH  </th> 
+	<th colspan="2"> DIANA SERIES ROUND BRUSH || $7.50 </th> 
                    
 			</tr>
 	<tr>

@@ -2,23 +2,45 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <div class="box2">
-          <h1> REGISTER</h1>
-         <p><asp:Label ID="lblName" runat="server" Text="Name" ForeColor="black"></asp:Label>
-         <asp:TextBox ID="txtName" runat="server"></asp:TextBox></p>
+    <table>
+	<tr>
+	
+<form action="/action_page.php">
 
-        <p> <asp:Label ID="lblEmail" runat="server" Text="Email" ForeColor="black"></asp:Label>
-         <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox></p>
-
-         <p><asp:Label ID="lblUsername" runat="server" Text="Username" ForeColor="black"></asp:Label>
-         <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox></p>
-
-         <p><asp:Label ID="lblPassword" runat="server" Text="Password" ForeColor="black"></asp:Label>
-         <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox></p>
+		<tr>
+	
+	<td>FullName<asp:TextBox ID="txtFullName" runat="server" Width="413px"></asp:TextBox>
+            </td><td> 
+                &nbsp;</td><br>
+	
+	</tr>
+    <td>Email<asp:TextBox ID="txtEmail" runat="server" Width="413px"></asp:TextBox>
+    
+	    </td><td> 
+            &nbsp;</tr>
+	<tr>
+	
+	<td>UserName<asp:TextBox ID="txtUsername" runat="server" Width="415px"></asp:TextBox>
+        </td><td> 
+            &nbsp;</td><br>
+	
+	</tr>
+        <tr>
+	
+	<td>Password<asp:TextBox ID="txtPassword" runat="server" TextMode="Password" Width="409px"></asp:TextBox>
+            </td><td> 
+                &nbsp;</td><br>
+	
+	</tr>
+    	
+	<tr>
+	<td>
 
          <p><asp:Button ID="BtnReg" runat="server" Text="Sign Up" OnClick="btnReg_Click1"/> </p>
          
          <p> <asp:Literal ID="litError" runat="server"></asp:Literal></p>
-    </div>
+        </td>
+	</tr>
+	</table>
 
 </asp:Content>

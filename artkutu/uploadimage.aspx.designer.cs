@@ -10,42 +10,33 @@
 namespace ARTKUTU {
     
     
-    public partial class login {
+    public partial class uploadimage {
         
         /// <summary>
-        /// txtLoginEmail control.
+        /// Imagefileuploadcontrol control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtLoginEmail;
+        protected global::System.Web.UI.WebControls.FileUpload Imagefileuploadcontrol;
         
         /// <summary>
-        /// txtLoginPassword control.
+        /// Btnupload control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtLoginPassword;
+        protected global::System.Web.UI.WebControls.Button Btnupload;
         
         /// <summary>
-        /// Btnlogin control.
+        /// CurrentImage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btnlogin;
-        
-        /// <summary>
-        /// LiteralLogin control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal LiteralLogin;
+        protected global::System.Web.UI.WebControls.ImageButton CurrentImage;
     }
 }

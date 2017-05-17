@@ -16,7 +16,7 @@
 
                 <tr>
     <th colspan="2">BOB ROSS WILDLIFE BRUSH ||  $8.50</th>
-                     <p>$8.50</p>
+                  
 				</tr>
 				<tr>
 					<td> <img src="picture/2000x2000.fit.094376956016-Stretched Canvas Deep Edge Range.jpg" alt="image" width="500" height="200"> </td>

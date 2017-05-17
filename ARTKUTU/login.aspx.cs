@@ -24,18 +24,20 @@ namespace ARTKUTU
 
         protected void btnloginbut_Click(object sender, EventArgs e)
         {
-            var identityDbContext = new IdentityDbContext("IdentityConnectionString");
+            var identityDbContext = new IdentityDbContext("db_1526884_co5027_asgConnectionString3");
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var userManager = new UserManager<IdentityUser>(userStore);
-            var user = userManager.Find(TxtUsername.Text, TxtPassword.Text);
+            var user = userManager.Find(txtLoginEmail.Text, txtLoginPassword.Text);
             if (user != null)
             {
                 LogUserIn(userManager, user);
-                Server.Transfer("privatePage.aspx", true);
+                Server.Transfer("Admin.aspx", true);
+
             }
             else
             {
-                litLoginError.Text = "Invalid username or password.";
+                LiteralLogin.Text = "Invalid username or password.";
+
             }
         }
 
@@ -43,16 +45,14 @@ namespace ARTKUTU
         {
             var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
             var userIdentity = usermanager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
-            authenticationManager.SignIn(new Microsoft.Owin.Security.AuthenticationProperties() { }, userIdentity);
-            //Note: user is automatically redirected if trying to access another page
+            authenticationManager.SignIn(new AuthenticationProperties() { }, userIdentity);
         }
 
-        protected void loginbut_Click(object sender, EventArgs e)
-        {
 
-        }
+            
+        
 
-        protected void Unnamed1_Click(object sender, EventArgs e)
+        protected void Btnlogin_Click(object sender, EventArgs e)
         {
 
         }
